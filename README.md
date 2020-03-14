@@ -13,7 +13,8 @@ Download only file `inRange.py`
 - OpenCV
 - NumPy
 
-**Run** like a general python file
+### Run
+Run like a general python file
 
 ## Configuration
 
