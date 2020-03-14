@@ -31,10 +31,10 @@ scale = 1
 Change `1` to the scale that you want (scale up or down)
 
 For example, if image size is 100x100
-- 2 -> image size is 200x200
-- 1 -> image size is 100x100
-- 0.5 -> image size is 50x50
-- 0.2 -> image size is 20x20
+- scale = 2 -> image size is 200x200
+- scale = 1 -> image size is 100x100
+- scale = 0.5 -> image size is 50x50
+- scale = 0.2 -> image size is 20x20
 
 #### Separate config menu from the preview
 ```python
