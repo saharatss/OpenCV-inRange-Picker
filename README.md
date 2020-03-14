@@ -44,7 +44,7 @@ You just change `'img'` to another name (any name)
 
 ## Practical use
 ```python
-# Convert an input image from BGR to HSV
+# Convert an input image from BGR image to HSV image
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 # Change upper and lower to the value that you got from the picker 
