@@ -42,4 +42,20 @@ configWindowName = 'img'
 ```
 You just change `'img'` to another name (any name)
 
+## Practical use
+```python
+# Convert an input image from BGR to HSV
+hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
+# Change upper and lower to the value that you got from the picker 
+# These arrays are ordered in [H,S,V]
+lower = np.array([130, 128, 0]) 
+upper = np.array([255, 255, 255])
+
+# The result image is called "mask"
+# mask is a binary image (contain value only 0 and 255)
+mask = cv2.inRange(hsv, lower, upper)
+
+# If you want the result image that contain original image
+result = cv2.bitwise_and(img, img, mask = mask) 
+```
