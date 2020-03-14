@@ -18,17 +18,17 @@ Run like a general python file
 
 ## Configuration
 
-#### Change preview image
+### Change preview image
 ```python
 org = cv2.imread('color.jpg')
 ```
-Change `color.jpg` to your image that you want
+You can change `color.jpg` to your image that you want
 
-#### Scaling preview image
+### Scaling preview image
 ```python
 scale = 1
 ```
-Change `1` to the scale that you want (scale up or down)
+You can change `1` to any scale that you want (scale up or down)
 
 For example, if image size is 100x100
 - scale = 2 -> image size is 200x200
@@ -36,10 +36,10 @@ For example, if image size is 100x100
 - scale = 0.5 -> image size is 50x50
 - scale = 0.2 -> image size is 20x20
 
-#### Separate config menu from the preview
+### Separate config menu from the preview
 ```python
 configWindowName = 'img'
 ```
-Change `'img'` to another name (any name)
+You just change `'img'` to another name (any name)
 
 
