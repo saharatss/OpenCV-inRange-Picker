@@ -2,7 +2,9 @@ import cv2
 import numpy as np
 
 org = cv2.imread('color.jpg')
-# org = cv2.resize(org,None,fx=0.5,fy=0.5)
+
+scale = 1
+org = cv2.resize(org,None,fx=scale,fy=scale)
 
 configWindowName = 'img'
 
